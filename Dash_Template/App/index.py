@@ -2,7 +2,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 from app import app
-# from Apps import 
+from Apps import home
 
 
 app.layout = html.Div([
@@ -15,7 +15,7 @@ app.layout = html.Div([
               [Input('url', 'pathname')])
 def display_page(pathname):
     if pathname == '/' or '/home':
-        return html.H1('Home Page')
+        return home.home_layout
     else:
         return '404'
 
