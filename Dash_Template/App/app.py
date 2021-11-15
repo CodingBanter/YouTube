@@ -10,3 +10,4 @@ load_dotenv(path.join(basedir, '.env'))
 #Creating a Dash instance
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
 server = app.server
+SECRET_KEY = environ.get('SECRET_KEY')
