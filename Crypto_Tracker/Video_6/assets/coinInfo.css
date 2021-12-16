@@ -1,0 +1,22 @@
+.coinInfo_main_container {
+  padding-top: 2%;
+}
+
+.coinInfo_return_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table_col {
+  padding-top: 3%;
+}
+
+.row_container {
+  padding: 2%;
+}
+
+.table_header {
+  text-align: center;
+}
